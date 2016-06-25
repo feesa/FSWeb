@@ -25,7 +25,7 @@
 <body>
 <h1>最新新闻</h1>
 <div id="d1"></div>
-<a href="http://127.0.0.1:8080/cas/logout?service=http://127.0.0.1:8080/SpringWeb/news/getNews">注销</a>
+<a href="http://127.0.0.1:8080/cas/logout?service=http://127.0.0.1:8080/FSWeb/news/getNews">注销</a>
 <script type="text/javascript">
 	$(function(){
 		$.ajax({

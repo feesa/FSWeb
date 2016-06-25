@@ -8,7 +8,7 @@
 		</layout>
 	</appender>
 	<appender class="org.apache.log4j.RollingFileAppender" name="R">
-        <param value="${WORKDIR}logs/SpringWebLog.log" name="File"/>
+        <param value="${WORKDIR}logs/FSWebLog.log" name="File"/>
         <param value="true" name="Append"/>
         <param value="10" name="MaxBackupIndex"/>
         <param value="4096KB" name="MaxFileSize"/>
